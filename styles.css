@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#headerBackGround{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/img1.png);
+    background-repeat: no-repeat;
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bg1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: 73%;
+}
+
+#navbar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#logo i{
+    font-size: 40px;
+}
+
+#logoTitle{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#navContent{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+#navContent a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#navContent a:hover{
+    text-decoration: underline;
+}
+
+#navContent i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#menu{
+    display: none;
+}
+
+#closeBtn{
+    display: none;
+}
+
+#MobileNavContent{
+    display: none;
+}
+
+.btnGroup{
+    width: 60%;
+    height: 60%;
+}
+
+#headerContent{
+    float: right;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+.btnGroupTitle{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 130px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+#titleHere{
+    color: #FFC100;
+}
+
+#headerContent p{
+    width: 85%;
+}
+
+.btnGroupPara{
+    color: white;
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.Btn{
+    text-decoration: none;
+    color: #303030;
+    background-color: #FFC100;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Btn:hover{
+    background-color: #fad76e;
+    color: #494949;
+}
+
+#bestSeller{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desTitle{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.desPara{
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+    margin-top: 10px;
+    color: #303030;
+}
+
+#BestItems{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.item{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemName{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.itemDes{
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+    margin-top: 5px;
+    color: #303030;
+}
+
+#oriental{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% -20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.image{
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+#orientalContent{
+    width: 40%;
+}
+
+#orientalContent h1{
+    color: #FFC100;
+}
+
+#statistics{
+    width: 100%;
+    height: 100%;
+    background-color: #303030;
+    background-image: url(./img/bg3.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#statisticsDes{
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+#statisticsTitle{
+    color: #FFC100;
+    font-size: 120px;
+}
+
+#statisticsPara{
+    color: white;
+    font-size: 24px;
+    width: 60%;
+}
+
+#statisticsNumbers{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.number{
+    width: 16%;
+    height: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    color: #FFC100;
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.type{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#chickGrill{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 125%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 90px 50px 0px 150px;
+}
+
+#chickGrillContent{
+    width: 40%;
+}
+
+#chickGrillContent h1{
+    color: #FFC100;
+}
+
+#lenora{
+    background-image: url(./img/img7.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#lenoraBackground{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(45, 100%, 50%, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lenoraPara{
+    width: 80%;
+    color: #303030;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+#lenoraTitle{
+    font-family: 'Grand Hotel', cursive;
+    color: #303030;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+#subscribe{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bg5.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#SubDescription{
+    margin-bottom: 50px;
+}
+
+#subTitle{
+    color: #303030;
+    font-size: 120px;
+}
+
+#subPara{
+    color: #303030;
+    font-size: 24px;
+    width: 60%;
+}
+
+#subscribeEmail{
+    display: flex;
+    box-shadow: 0px 10px 30px 11px rgba(0,0,0,0.1);
+}
+
+input{
+    margin: 0;
+    height: 40px;
+    width: 600px;
+    border: none;
+    text-transform: uppercase;
+    color: #5e5d5d;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#subBtn{
+    border-radius: 2px;
+}
+
+footer{
+    width: 100%;
+    height: 80%;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftFooter{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+#leftContent{
+    width: 80%;
+}
+
+.footerTitle{
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#footerPara{
+    width: 80%;
+    font-size: 20px;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#icons i{
+    font-size: 26px;
+    background-color: white;
+    color: #303030;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons i:hover{
+    background-color: rgba(255, 255, 255, 0.755);
+    cursor: pointer;
+}
+
+#rightFooter{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+#about{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#services{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#other{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: -30px;
+}
+
+.rightFooterOptions{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.rightFooterOptions:hover{
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 500px) {
+    #header{
+        background-image: url(./img/bg2.png);
+        background-position: 0% 106%;
+        background-size: 157%;
+    }
+
+    #menu{
+        display: flex;
+    }
+
+    #menu i{
+        font-size: 30px;
+    }
+
+    #navContent{
+        display: none;
+    }
+
+    #MobileNavContent{
+        align-items: center;
+        gap: 80px;
+        flex-direction: column;
+        position: absolute;
+        background-color: #303030;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        padding-top: 30px;
+        box-sizing: border-box;
+        display: none;
+        z-index: 1;
+    }
+
+    #MobileNavContent a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    #MobileNavContent a:hover{
+        text-decoration: underline;
+    }
+    
+    #MobileNavContent i{
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #closeBtn{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    #headerContent{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 47%;
+    }
+
+    #titleHere{
+        font-size: 80px;
+    }
+
+    #headerContent p{
+        font-size: 19px;
+    }
+
+    #BestItems{
+        flex-direction: column;
+    }
+
+    .description{
+        margin-top: 80px;
+    }
+
+    .desPara{
+        margin-top: 5px;
+        font-size: 24px;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .item{
+        width: 100%;
+    }
+
+    .itemName{
+        margin-top: 30px;
+    }
+
+    #bestSeller{
+        height: unset;
+    }
+
+    #oriental{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: 0% 0%;
+        margin-bottom: -15%;
+    }
+
+    #chickGrill{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: 0% 0%;
+        padding: 0px;
+        margin-top: -40px;
+        margin-bottom: 150px
+    }
+
+    .image{
+        width: unset;
+        margin-bottom: 20px;
+    }
+
+    .image img{
+        width: 250px;
+    }
+
+    #orientalContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+        height: unset;
+    }
+
+    #chickGrillContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+        height: unset;
+        padding-bottom: 120px;
+        padding-top: 245px;
+    }
+
+    #orientalContent h1{
+        font-size: 60px;
+    }
+    
+    #chickGrillContent h1{
+        font-size: 60px;
+    }
+
+    #orientalContent p{
+        display: flex;
+        justify-content: center;
+        width: 86%;
+        font-size: 16px;
+    }
+
+    #chickGrillContent p{
+        display: flex;
+        justify-content: center;
+        width: 86%;
+        font-size: 16px;
+    }
+
+    #statistics{
+        background-position: left;
+        background-size: unset;
+        height: unset;
+    }
+
+    #statisticsTitle{
+        font-size: 70px;
+    }
+
+    #statisticsPara{
+        font-size: 16px;
+        width: 80%;
+        margin-top: 0px;
+    }
+
+    #statisticsNumbers{
+        flex-direction: column;
+        margin-top: 20px;
+        height: unset;
+    }
+
+    .number{
+        width: 60%;
+        height: 200px;
+    }
+
+    .num{
+        font-size: 50px;
+    }
+
+    .type{
+        font-size: 24px;
+    }
+
+    #lenoraPara{
+        font-size: 30px;
+    }
+
+    #lenoraTitle{
+        font-size: 50px;
+    }
+
+    #subscribe{
+        background-position: right;
+        background-size: unset;
+    }
+
+    #SubDescription{
+        margin-bottom: 0px;
+        margin-top: 120px;
+    }
+
+    #subTitle{
+        font-size: 90px;
+    }
+
+    #subPara{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    input{
+        width: 350px;
+    }
+
+    #subscribeEmail{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #leftFooter{
+        width: 100%;
+        height: 50%;
+    }
+
+    #leftContent{
+        padding-left: 20px;
+        width:unset;
+    }
+
+    .footerTitle{
+        font-size: 20px;
+    }
+
+    #footerPara{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    #icons{
+        gap: 15px;
+    }
+
+    #icons i{
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #rightFooter{
+        height: 50%;
+        width: 100%;
+    }
+
+    #about{
+        width: unset;
+        justify-content: unset;
+    }
+
+    #services{
+        width: unset;
+        justify-content: unset;
+    }
+
+    #other{
+        width: unset;
+        justify-content: unset;
+        margin: unset;
+    }
+
+    .rightFooterOptions{
+        font-size: 16px;
+    }
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
